@@ -362,9 +362,9 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 5px;
+    margin-bottom:15px;
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: Playlist;
     font-size: 40px;
     font-weight: 700;
     line-height: 20px;
@@ -373,8 +373,8 @@ header .intro-text .intro-heading {
 header .intro-text .intro-sub-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
-    font-size: 30px;
+    font-family: Playlist;
+    font-size: 55px;
     font-weight: 700;
     line-height: 30px;
 }
@@ -383,7 +383,10 @@ header .intro-text .intro-sub-heading {
         padding-top: 300px;
         padding-bottom: 200px;
     }
-
+    @font-face {
+      font-family: "Playlist";
+      src: url("../2016_style/fonts/Playlist-Script/Playlist Script.ttf");
+    }
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: {{ site.data.template.font.secondary }};
@@ -393,8 +396,8 @@ header .intro-text .intro-sub-heading {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 5px;
-        font-family: {{ site.data.template.font.primary }};
+        margin-bottom: 15px;
+        font-family: Playlist;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
@@ -415,7 +418,7 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: Playlist;
     font-size: 120%;
     font-style: italic;
     font-weight: 400;
